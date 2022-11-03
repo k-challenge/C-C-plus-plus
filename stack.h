@@ -100,11 +100,7 @@ public:
     size_t length() const{
         return this->size;
     }
-#pragma endregion
-
-    //===== Operator =====//
-
-#pragma endregion
+    
 };
 
 #endif //UNTITLED8_STACK_H
