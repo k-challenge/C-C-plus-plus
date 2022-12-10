@@ -1,16 +1,8 @@
-#include <iostream>
 #ifndef UNTITLED8_STACK_H
 #define UNTITLED8_STACK_H
 #include <initializer_list>
-/**
- * \Exercise_Stack
- * @Coder_Team \n Huynh Tan Kiet (devlin2k3)
- * \n Phuc Dang
- * \n Tri Vinh
- * \n Van Tai
- * \n Vinh Luan
- * \n Dat Nguyen
- */
+#include <iostream>
+
 template <class datatype>
 class stack{
 private:
@@ -108,11 +100,7 @@ public:
     size_t length() const{
         return this->size;
     }
-#pragma endregion
-
-    //===== Operator =====//
-
-#pragma endregion
+    
 };
 
 #endif //UNTITLED8_STACK_H
