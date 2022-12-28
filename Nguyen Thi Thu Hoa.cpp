@@ -17,7 +17,7 @@ int M, N, S, E;
 
 void init()
 {
-    ifstream fp("DIJKSTRA.INP", ios::in);
+    ifstream fp("DIJKSTRA.txt", ios::in);
     fp >> N >> M >> S >> E;
     for (int i = 1; i <= M; i++)
     {
